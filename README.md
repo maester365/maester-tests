@@ -2,4 +2,14 @@
 
 This is a starter repository of Maester tests that you can clone to get started with Maester.
 
-See [Maester.dev](https://maester.dev) for a step by step guide to use Maester.
+To get started, install the Maester module, sign into your tenant and run Invoke-Maester to run the tests we've created for you.
+
+```powershell
+Install-Module Maester -Scope CurrentUser
+
+Connect-Maester
+
+Invoke-Maester
+```
+
+See [Maester.dev](https://maester.dev) to learn more about writing your own tenant specific tests, setting up continous monitoring of your tenant and more.
