@@ -13,3 +13,7 @@ Invoke-Maester
 ```
 
 See [Maester.dev](https://maester.dev) to learn more about writing your own tenant specific tests, setting up continous monitoring of your tenant and more.
+
+> [!NOTE]  
+> This repository is a copy of the `/tests` folder from the main https://github.com/maester365/maester repository.
+> Please open pull-requests and open issues in the main repository.
