@@ -1,5 +1,12 @@
 # Maester Tests
 
+> [!IMPORTANT]
+> **This repository is for Maester 2.x only. Maester 3.0 doesn't need it.**
+>
+> From Maester 3.0 the tests ship inside the Maester PowerShell module, so you don't need a copy of this repository, a tests folder or `Install-MaesterTests`. Install the module and run `Invoke-Maester`. For CI, your repository only needs the pipeline file and, if you want them, a `maester-config.json` and a `custom` folder for your own tests.
+>
+> This repository keeps its 2.x content so that existing 2.x pipelines keep working. It is not updated for 3.0 and will be archived after 3.0 has been out for a release cycle. See [Upgrading from 2.x](https://maester.dev/docs/next/upgrading-from-2x) to move to 3.0.
+
 This is a starter repository of Maester tests that you can clone to get started with Maester.
 
 ## Installation
